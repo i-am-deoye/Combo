@@ -22,6 +22,8 @@ dependencies: [
 
 
 ```swift
+import Combo
+
 class Item: NSObject, Query.QueryItemType {
     static func == (lhs: Item, rhs: Item) -> Bool {
         return lhs.name == rhs.name && lhs.age == rhs.age
