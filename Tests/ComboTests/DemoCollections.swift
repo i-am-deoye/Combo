@@ -24,9 +24,6 @@ class Item: NSObject, Query.QueryItemType {
     }
 }
 
-class Index: NSObject, Query.QueryItemType {
-    
-}
 
 
 
