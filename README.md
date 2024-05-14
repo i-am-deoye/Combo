@@ -57,10 +57,6 @@ let items: [Item] = [
 
 let collections = DemoCollections()
 
-let expectedResult: [Item] = [
-    .init(name: "A", age: 10)
-]
-
 let result = collections.filter(items: items, property: "name", value: "A")
 
 ```
